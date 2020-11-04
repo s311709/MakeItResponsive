@@ -1,0 +1,90 @@
+/* RESPONSIVE MEET OUR TEAM */
+/* This is what makes index.html responsive */
+
+@media (max-width: 900px) {
+ .item1 {
+	grid-column:1/5; 
+	grid-row: 1/5;
+	}
+
+.item2 {
+	grid-column:5/9; 
+	grid-row:5/9;
+}
+	
+	h1{
+		color: pink;
+	}
+ }
+
+ @media (max-width: 600px) {
+  	 	.item1 {
+	grid-column:1/9; 
+	grid-row: 1/5;
+	}
+
+.item2 {
+	grid-column:1/9; 
+	grid-row:5/9;
+}
+
+
+	h1{
+		color: blue;
+	}
+
+
+
+	h1{
+		color: red;
+	}
+
+}
+ @media (max-width: 500px) {
+  	.meet-team1{
+	grid-column: 1/9;
+	grid-row: 1/9;
+}
+
+.meet-team2{
+	grid-column: 1/9;
+	grid-row: 9/18;
+}
+
+.meet-team3{
+	grid-column: 1/9;
+	grid-row: 18/25;
+}
+
+.meet-team4{
+	grid-column: 1/9;
+	grid-row: 25/32;
+}
+
+.meet-team5{
+	grid-column: 1/9;
+	grid-row: 32/39;
+}
+
+.meet-team6{
+	grid-column: 1/9;
+	grid-row: 39/46;
+}
+
+.meet-team7{
+	grid-column: 1/9;
+	grid-row: 46/53;
+}
+
+.meet-team8{
+	grid-column: 1/9;
+	grid-row: 53/60;
+}
+
+
+
+	h1{
+		color: purple;
+	}
+
+}
