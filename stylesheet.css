@@ -38,7 +38,7 @@ h2{
 
 .wrapper{
 	display: grid;
-	grid-template-columns: repeat(10, 1fr);
+	grid-template-columns: repeat(20, 1fr);
 	grid-auto-rows: minmax(25px, auto);
 	background: linear-gradient(#FFA200, #FFAD00, #FFBD00, #FFD000, #FFE000, #F7DB14, yellow);
 	background-size: cover;
@@ -65,7 +65,7 @@ h2{
 /* ^^Vi setter opp grid-et^^ */
 
 .headline{
-	grid-column: 1/11;
+	grid-column: 1/20;
 	grid-row: 1/4;
 	position sticky;
 	top: 0px;
@@ -118,10 +118,22 @@ på de andre sidene*/
 
 
 .contents-grid{
+	grid-column: 2/20;
+	grid-row: 5/30; /*går ned til footer*/
+	background-color: rgba(255,255,255, 0.3);
+	background-color white;
+	display: grid;
+	grid-template-columns: repeat(15, 1fr);
+	grid-auto-rows: minmax(auto, 25px);
+	grid-gap: 2em;
+	padding: 20px 0;
+	z-index: 2;
+}
+
+#contents-grid{
 	grid-column: 1/11;
 	grid-row: 5/30; /*går ned til footer*/
 	background-color rgba(255,255,255, 0.5);
-
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-auto-rows: minmax(auto, 25px);
@@ -132,8 +144,8 @@ på de andre sidene*/
 }
 
 .item{
-	background-color: rgba(255,255,255, 0.5);
-	background-color: babypink;
+	background-color rgba(255,255,255);
+	background-color: lightgrey;
 	float: left;
 	overflow: hidden;
 }
@@ -173,25 +185,25 @@ på de andre sidene*/
 
 
 .item3 {
-	grid-column: 1/5;
-	grid-row: 1/12;
+	grid-column: 2/8;
+	grid-row: 2/12;
 }
 
 .item4 {
-	grid-column: 5/9;
-	grid-row: 2/11;
+	grid-column: 8/15;
+	grid-row: 3/11;
 }
 
 /*dette er small header */
 .item5{
-	grid-column: 3/7;
+	grid-column: 5/12;
 	grid-row: 12/13;
 
 	text-align: center;
 }
 
 #about-image-grid{
-	grid-column: 1/11;
+	grid-column: 3/14;
 	grid-row: 13/19;
 
 
@@ -333,7 +345,7 @@ på de andre sidene*/
 /* dette er til footer */
 
 .footer{
-	grid-column: 1/11;
+	grid-column: 1/25;
 	grid-row: 30/35;
 
 	background-color: gray;
