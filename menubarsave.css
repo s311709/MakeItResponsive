@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+    
+.navigationbar {
+    overflow: hidden;
+    /*background-color: rgb(245, 245, 245);*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    z-index: 10;
+}
+  
+#bildeA{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    float: left;
+    margin-top: 0px;
+}
+
+#bilde{
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
+.navigationbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 20pt;
+    margin-right: 40px;
+}
+
+.navigationbar p {
+    text-align: center;
+}
+
+.navigationbar a:visited, .navigationbar a:link{
+    text-decoration: none;
+    color: black;
+}
+    
+.navigationbar a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #1568EA;
+    transition: width .4s;
+}
+
+.navigationbar .active::after{
+    width: 100%;
+    transition: width .4s;
+}
+
+#navHidden .active::after{
+    width: 100%;
+    transition: width .4s;
+}
+.navigationbar a:hover::after {
+    width: 100%;
+    transition: width .4s;
+}
+
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+  
+#hamburgContainer{
+    float: right;
+    display: none;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: larger;
+    padding-bottom: 0px;
+    position: fixed;
+    left: 90%;
+    z-index: 10;
+}
+  
+#tint{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(12, 12, 17);
+    opacity: 0.95;
+    display: none;
+    z-index: 100;
+}
+
+#navHidden{
+    display: none;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    height: 70%;
+    margin-top: -37.5%;
+    width: 42%;
+    margin-left: -21%;
+    z-index: 2;
+    text-align: center;
+    transition: 1s linear;
+}
+
+#navHidden a{
+    display: block;
+    margin: 20%;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 20pt;
+    z-index: 10;
+}
+
+.navHr{
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+}
+
+#navHidden a:visited, #navHidden a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#navHidden a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #1568EA;
+    transition: width .4s;
+}
+
+#navHidden a:hover::after {
+    width: 100%;
+    transition: width .4s;
+}
