@@ -243,10 +243,12 @@ h2{
 
 	background-color: gray;
 
-	display: grid; 
+	display: grid;
 
+	/*Denne koden ser ikke ut til å gjøre noe? - Andreas*/
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 25px;
+
 }
 
 #contact-info{
@@ -263,16 +265,36 @@ h2{
 	border-width: 1px;
 }
 
-#socials{
-	grid-column:2; 
+.socials{
+	grid-column:2/3; /*Gjør denne noe, når den er justify-self: end;? - Andreas*/
 	grid-row:1/5;
 
 	margin: 10px;
 	justify-self: end;
 	width: 300px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgb(255, 255, 255);
 	text-align: center;
+	align-items: center;
+	border-radius: 1rem;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	
 }
+
+.icon{
+	height: 70px;
+	width: 70px;
+	background:rgba(90, 166, 238, 0);
+	border-radius: 1rem;
+	margin: 0.75rem;
+	/*padding-top: 4px;*/
+}
+
+.icon:hover{
+	background-color:rgba(43, 142, 255, 0.651);	
+}
+
 
 @media (max-width: 635px) {
 	
@@ -289,10 +311,11 @@ h2{
 	}
 
 
-	#socials{
+	.socials{
 		grid-column:1/3; 
 		grid-row:5/8;
 		justify-self: center;
+		align-items: center;
 		width: 100%;
 	}
 }
