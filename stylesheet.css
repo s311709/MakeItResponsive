@@ -351,7 +351,7 @@ på de andre sidene*/
 
 }
 
-#contact-info{
+.contact-info{
 	grid-column:1;
 	grid-row:1/5;
 
