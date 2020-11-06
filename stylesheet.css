@@ -259,9 +259,12 @@ på de andre sidene*/
 #meet-HR{
   border: 1px solid white;
   margin-top: 20px;
-  width: 45%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%; 
   min-width: 600px;
   overflow: hidden;
+  justify-self: center;
 }
 
 .team-contents{
