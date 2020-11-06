@@ -36,11 +36,30 @@
 
   .about p{
       margin-top: 1rem;
+      margin-bottom: 1rem;
       font-size: 1.25rem;
   }
+
   .about h2{
-      color:rgb(45, 70, 94);
-      text-decoration-line: underline;
+      color: rgb(50, 77, 153);
+  }
+
+  .about_image{
+      margin: 0.5rem;
+      
+  }
+
+  #about_image{
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      border-radius: 0.5rem;
+      border: solid 2px orange;
+  }
+
+
+  hr{
+      border-top: dotted 4px orange;
   }
 
   /*Responsive columns*/
