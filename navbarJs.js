@@ -37,9 +37,9 @@ function windowStr(){
         document.getElementById("bilde").style.width="50px"
         document.getElementById("bilde").style.height="50px"
         for (i = 0; i <= 4; i++){
-            document.getElementsByClassName("navTag")[i].style.fontSize = "14pt";
-            document.getElementsByClassName("navTag")[i].style.paddingTop = "0.8rem";
-            document.getElementsByClassName("navTag")[i].style.marginRight = "70px";
+            document.getElementsByClassName("navTag")[i].style.fontSize = "20pt";
+            document.getElementsByClassName("navTag")[i].style.paddingTop = "0.5rem";
+            document.getElementsByClassName("navTag")[i].style.marginRight = "33px";
 
         }
 
@@ -52,8 +52,8 @@ function windowStr(){
         document.getElementById("bilde").style.height="100px"
         for (i = 0; i <= 4; i++){
             document.getElementsByClassName("navTag")[i].style.fontSize = "20pt";
-            document.getElementsByClassName("navTag")[i].style.paddingTop = "2rem";
-            document.getElementsByClassName("navTag")[i].style.marginRight = "40px";
+            document.getElementsByClassName("navTag")[i].style.paddingTop = "3rem";
+            document.getElementsByClassName("navTag")[i].style.marginRight = "33px";
 
         }
 
