@@ -241,12 +241,12 @@ på de andre sidene*/
 
 /* dette er meet our team divsene */
 
-.meet-headline{
+.headline{
 	background-color: #FFC24D;
 	grid-row: 1/5;
 }
 
-.meet-headline > h1{
+.headline > h1{
 	color: white;
 	margin-top: 30px;
 	margin-left: 30px;
@@ -260,12 +260,12 @@ på de andre sidene*/
 		text-shadow: 0px -1px black, 2px 0px black, 0px 2px black, -1px 0px black;
 }
 
-#meet-HR{
+.underline_header{
   border: 1px solid white;
   margin-top: 20px;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%; 
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
   min-width: 600px;
   overflow: hidden;
   justify-self: center;
