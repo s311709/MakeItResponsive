@@ -1,0 +1,46 @@
+.column_cards{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Float two and two columns side by side*/
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+  
+  /*Remove extra left and right margins, due to padding*/
+  .row {
+    margin: 0 -5px;
+  }
+  
+  /*Clear floats after the columns*/
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .degrees {
+    background-color: rgba(254, 255, 255, 0.795);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.356);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    padding-bottom: 1rem;
+    margin: 0.5rem;
+    min-height: 300px;
+    max-height: auto;
+  }
+
+  /*Responsive columns*/
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  

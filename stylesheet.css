@@ -176,8 +176,12 @@ på de andre sidene*/
 
 /* disse befinner seg på about.html*/
 
+.column_cards{
+	grid-column: 1/25;
+	grid-row: 1/30
+}
 
-.item3 {
+/*.item3 {
 	grid-column: 1/5;
 	grid-row: 1/12;
 }
@@ -185,10 +189,10 @@ på de andre sidene*/
 .item4 {
 	grid-column: 5/9;
 	grid-row: 2/11;
-}
+}*/
 
 /*dette er small header */
-.item5{
+/*.item5{
 	grid-column: 3/7;
 	grid-row: 12/13;
 
@@ -228,7 +232,7 @@ på de andre sidene*/
 .img-grid4{
 	grid-column: 4;
 	grid-row: 1/5;
-}
+}*/
 
 /* dette er meet our team divsene */
 
