@@ -7,6 +7,7 @@ function windowStr(){
     if (window.innerWidth <= 1100){
         document.getElementById("hamburgContainer").style.display="block";
         document.getElementById("container").style.display="none";
+        document.getElementsByClassName("wrapper")[0].style.marginTop = "0px";
     }
     else if (window.innerWidth >= 1100 && document.getElementById("tint").style.display == "block"){
         tall = tall+1
@@ -17,6 +18,8 @@ function windowStr(){
         document.getElementById("tint").style.display="none";
         document.body.overflow="visible";
         document.getElementById("navHidden").style.display="none";
+        document.getElementsByClassName("wrapper")[0].style.marginTop = "100px";
+
     }
     else{
         document.getElementById("hamburgContainer").style.display="none";
@@ -24,6 +27,8 @@ function windowStr(){
         document.getElementById("tint").style.display="none";
         document.body.overflow="visible";
         document.getElementById("navHidden").style.display="none";
+        document.getElementsByClassName("wrapper")[0].style.marginTop = "100px";
+
     }
     if (window.scrollY >= 100){
         document.getElementsByClassName("navigationbar")[0].style.backgroundColor="#FFD52D";
@@ -34,7 +39,7 @@ function windowStr(){
         for (i = 0; i <= 4; i++){
             document.getElementsByClassName("navTag")[i].style.fontSize = "14pt";
             document.getElementsByClassName("navTag")[i].style.paddingTop = "0.8rem";
-            document.getElementsByClassName("navTag")[i].style.marginRight = "100px";
+            document.getElementsByClassName("navTag")[i].style.marginRight = "70px";
 
         }
 
@@ -47,7 +52,7 @@ function windowStr(){
         document.getElementById("bilde").style.height="100px"
         for (i = 0; i <= 4; i++){
             document.getElementsByClassName("navTag")[i].style.fontSize = "20pt";
-            document.getElementsByClassName("navTag")[i].style.paddingTop = "1.5rem";
+            document.getElementsByClassName("navTag")[i].style.paddingTop = "2rem";
             document.getElementsByClassName("navTag")[i].style.marginRight = "40px";
 
         }
