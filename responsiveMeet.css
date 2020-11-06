@@ -114,40 +114,42 @@
 	
 	.meet-team2{
 		grid-column: 1/9;
-		grid-row: 9/18;
+		grid-row: 9/17;
 	}
 	
 	.meet-team3{
 		grid-column: 1/9;
-		grid-row: 18/25;
+		grid-row: 17/25;
 	}
 	
 	.meet-team4{
 		grid-column: 1/9;
-		grid-row: 25/32;
+		grid-row: 25/33;
 	}
 	
 	.meet-team5{
 		grid-column: 1/9;
-		grid-row: 32/39;
+		grid-row: 33/41;
 	}
 	
 	.meet-team6{
 		grid-column: 1/9;
-		grid-row: 39/46;
+		grid-row: 41/49;
 	}
 	
 	.meet-team7{
 		grid-column: 1/9;
-		grid-row: 46/53;
+		grid-row: 49/56;
 	}
 	
 	.meet-team8{
 		grid-column: 1/9;
-		grid-row: 53/60;
+		grid-row: 56/60;
 	}
 	
-	
+	.page-sizer{
+		grid-row: 1/60;
+	}
 	
 	h1{
 		color: purple;

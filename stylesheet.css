@@ -232,10 +232,17 @@ på de andre sidene*/
 
 /* dette er meet our team divsene */
 
+.team-contents{
+	padding: 20px;
+}
+
 .teamitem{
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	grid-template-rows: repeat(2, 2fr 1fr);
+	background-color: rgba(255,255,255, 0.3);
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
 }
 
 
@@ -246,13 +253,19 @@ på de andre sidene*/
 	padding: 10px;
 	border-radius: 50%;
 	 object-fit: cover;
-
+	
 
 }
 
 .teamitem > div {
-	margin-top: 20px;
 	text-align: center;
+	background-color: rgba(255,255,255, 0.5);
+	min-height: 172px;
+	padding-top: 20px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 1.1em;
+	justify-self: center;
 }
 
 .teamitem > div >h3{
@@ -261,6 +274,7 @@ på de andre sidene*/
 
 .teamitem > div > p {
 	margin: 0 10px;
+	line-height: 20pt;
 }
 
 .meet-team1{
@@ -302,6 +316,7 @@ på de andre sidene*/
 	grid-column: 7/9;
 	grid-row: 9/17;
 }
+
 
 /*Dette er schedule divsene */
 
