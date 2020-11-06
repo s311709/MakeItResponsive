@@ -26,7 +26,7 @@ function windowStr(){
         document.getElementById("navHidden").style.display="none";
     }
     if (window.scrollY >= 100){
-        document.getElementsByClassName("navigationbar")[0].style.backgroundColor="slategray";
+        document.getElementsByClassName("navigationbar")[0].style.backgroundColor="#FFD52D";
         document.getElementsByClassName("navigationbar")[0].style.height="50px";
         document.getElementsByClassName("navigationbar")[0].style.borderBottom = "2px black outset";
         document.getElementById("bilde").style.width="50px"
