@@ -233,14 +233,44 @@ på de andre sidene*/
 
 /* dette er meet our team divsene */
 
+.meet-headline{
+	background-color: #FFC24D;
+	grid-row: 1/5;
+
+}
+
+.meet-headline > h1{
+	color: white;
+	margin-top: 30px;
+	margin-left: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 1;
+    text-align: left;
+}
+
+#meet-HR{
+  border: 1px solid white;
+  margin-top: 20px;
+  width: 45%;
+  min-width: 600px;
+  overflow: hidden;
+}
+
+.team-contents{
+	padding: 20px;
+}
+
 .teamitem{
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	grid-template-rows: repeat(2, 2fr 1fr);
-	border-style: solid;
-	border-color: black;
-	border-width: thick;
-	border-radius: 6px;
+	background-color: rgba(255,255,255, 0.3);
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+	border: 1px solid orange;
 }
 
 
@@ -256,8 +286,14 @@ på de andre sidene*/
 }
 
 .teamitem > div {
-	margin-top: 20px;
 	text-align: center;
+	background-color: rgba(255,255,255, 0.5);
+	min-height: 172px;
+	padding-top: 20px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 1.1em;
+	justify-self: center;
 }
 
 .teamitem > div >h3{
@@ -266,6 +302,7 @@ på de andre sidene*/
 
 .teamitem > div > p {
 	margin: 0 10px;
+	line-height: 20pt;
 }
 
 .meet-team1{
@@ -307,6 +344,7 @@ på de andre sidene*/
 	grid-column: 7/9;
 	grid-row: 9/17;
 }
+
 
 /*Dette er schedule divsene */
 
