@@ -41,7 +41,7 @@ h2{
 	margin-top: 100px;
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
-	grid-auto-rows: minmax(25px, auto);
+	grid-auto-rows: minmax(40px, auto);
 	background: linear-gradient(#FFA200, #FFAD00, #FFBD00, #FFD000, #FFE000, #F7DB14, yellow);
 	background-size: cover;
 	background-attachment: scroll;
@@ -263,9 +263,12 @@ på de andre sidene*/
 #meet-HR{
   border: 1px solid white;
   margin-top: 20px;
-  width: 45%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%; 
   min-width: 600px;
   overflow: hidden;
+  justify-self: center;
 }
 
 .team-contents{
@@ -280,6 +283,7 @@ på de andre sidene*/
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
 	border: 1px solid orange;
+	min-height: 425px;
 }
 
 
@@ -289,7 +293,7 @@ på de andre sidene*/
 	height: 250px;
 	padding: 10px;
 	border-radius: 50%;
-	 object-fit: cover;
+	object-fit: cover;
 
 
 }
@@ -301,7 +305,7 @@ på de andre sidene*/
 	padding-top: 20px;
 	border-radius: 5px;
 	width: 100%;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	justify-self: center;
 }
 
