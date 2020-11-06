@@ -2,7 +2,7 @@
 /* RESPONSIVE MEET OUR TEAM */
 /* This is what makes meetOurTeam responsive */
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   
 	.teamitem{
 		max-width: 275px;
