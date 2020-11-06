@@ -37,6 +37,7 @@ h2{
 
 
 .wrapper{
+	margin-top: 100px;
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	grid-auto-rows: minmax(25px, auto);
@@ -49,7 +50,6 @@ h2{
 }
 
 #frontpage-wrapper{
-	margin-top: 100px;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
