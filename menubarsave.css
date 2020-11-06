@@ -6,7 +6,6 @@ body {
 
 .navigationbar {
     overflow: hidden;
-    background-color: slategray;
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,10 +13,10 @@ body {
     padding-bottom: 0px;
     padding-top: 0px;
     z-index: 10;
-    background linear-gradient(#A4A4A4, #545454, #1E1D1D);
     background-color #FFB733;
     background-color: #FFD52D;
     background-color  #DB6D06;
+    border-bottom: 1px solid black;
 }
 
 #bildeA{
@@ -43,8 +42,11 @@ body {
     padding: 1rem;
     padding-top: 1.5rem;
     text-decoration: none;
-    font-family: Helvetica;
-    font-size: 20pt;
+    font-family Helvetica;
+    font-size 20pt;
+    font-family: 'Fjalla One', sans-serif;
+    font-family 'Merriweather', serif;
+    font-weight: 600;
     margin-right: 40px;
 }
 
