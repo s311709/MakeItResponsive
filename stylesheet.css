@@ -231,6 +231,32 @@ på de andre sidene*/
 
 /* dette er meet our team divsene */
 
+.meet-headline{
+	background-color: #FFC24D;
+	grid-row: 1/5;
+
+}
+
+.meet-headline > h1{
+	color: white;
+	margin-top: 30px;
+	margin-left: 2%;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 1;
+    text-align: left;
+}
+
+#meet-HR{
+  border: 1px solid white;
+  margin-top: 20px;
+  width: 45%;
+  min-width: 600px;
+  overflow: hidden;
+}
+
 .team-contents{
 	padding: 20px;
 }
