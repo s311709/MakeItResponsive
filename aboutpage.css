@@ -23,8 +23,8 @@
     clear: both;
   }
   
-  .degrees {
-    background-color: rgba(254, 255, 255, 0.795);
+  .about {
+    background-color: rgba(254, 255, 255, 0.774);
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.356);
     border-radius: 0.5rem;
@@ -33,6 +33,15 @@
     margin: 0.5rem;
     min-height: 300px;
     max-height: auto;
+  }
+
+  .about p{
+      margin-top: 1rem;
+      font-size: 1.25rem;
+  }
+  .about h2{
+      color: black;
+      text-decoration-line: underline;
   }
 
   /*Responsive columns*/
