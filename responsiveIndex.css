@@ -1,90 +1,100 @@
 /* RESPONSIVE MEET OUR TEAM */
 /* This is what makes index.html responsive */
 
-@media (max-width: 900px) {
- .item1 {
-	grid-column:1/5; 
+@media (max-width: 1000px) {
+  .item1f {
+	grid-column:1/5;
+	grid-row: 3/6;
+  padding-left: 15px;
+  padding-right: 10px;
+	}
+
+  .item2f {
+	grid-column:6/11;
+	grid-row:7/11;
+  padding-right: 15px;
+  }
+
+  .item3f{
+	grid-column: 1/5;
+	grid-row: 12/16;
+  padding-left: 15px;
+  padding-right: 8px;
+  }
+
+  .item4f{
+	grid-column: 1/11;
+	grid-row: 18/20;
+  padding-top: 20px;
+  }
+
+  #future {
+    font-size: 38px;
+    text-align: center;
+  }
+
+
+ @media (min-width: 500px) and (max-width: 635px) {
+
+  .item1f{
+	grid-column:1/5;
 	grid-row: 1/5;
 	}
 
-.item2 {
-	grid-column:5/9; 
-	grid-row:5/9;
-}
-	
-	h1{
-		color: pink;
-	}
- }
+  .item2f{
+	grid-column:6/10;
+	grid-row:7/11;
+  }
 
- @media (max-width: 600px) {
-  	 	.item1 {
-	grid-column:1/9; 
-	grid-row: 1/5;
-	}
+  .item3f{
+  grid-column: 1/5;
+  grid-row: 13/22;
+  }
 
-.item2 {
-	grid-column:1/9; 
-	grid-row:5/9;
-}
+  .item4f{
+  grid-column: 1/11;
+  grid-row: 22/25;
+  padding-top: none;
+  }
 
-
-	h1{
-		color: blue;
-	}
-
-
-
-	h1{
-		color: red;
-	}
+  #future {
+    font-size: 38px;
+    text-align: center;
+  }
 
 }
+
  @media (max-width: 500px) {
-  	.meet-team1{
-	grid-column: 1/9;
-	grid-row: 1/9;
+   .item1f{
+	grid-column: 2/8;
+	grid-row: 2/6;
+  }
+
+  .item2f{
+	grid-column: 2/8;
+	grid-row: 8/12;
+  }
+
+  .item3f{
+	grid-column: 2/8;
+	grid-row: 14/18;
+  }
+
+  .item4f{
+	grid-column: 2/8;
+	grid-row: 20/26;
+  }
+
+  #future {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  #headline-FP > h1 {
+  font-size: 100px;
+  }
+
+.item {
+  text-align: center;
 }
-
-.meet-team2{
-	grid-column: 1/9;
-	grid-row: 9/18;
-}
-
-.meet-team3{
-	grid-column: 1/9;
-	grid-row: 18/25;
-}
-
-.meet-team4{
-	grid-column: 1/9;
-	grid-row: 25/32;
-}
-
-.meet-team5{
-	grid-column: 1/9;
-	grid-row: 32/39;
-}
-
-.meet-team6{
-	grid-column: 1/9;
-	grid-row: 39/46;
-}
-
-.meet-team7{
-	grid-column: 1/9;
-	grid-row: 46/53;
-}
-
-.meet-team8{
-	grid-column: 1/9;
-	grid-row: 53/60;
-}
-
-
-
-	h1{
-		color: purple;
-	}
-
 }
