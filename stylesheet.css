@@ -279,6 +279,7 @@ på de andre sidene*/
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
 	border: 1px solid orange;
+	min-height: 425px;
 }
 
 
@@ -300,7 +301,7 @@ på de andre sidene*/
 	padding-top: 20px;
 	border-radius: 5px;
 	width: 100%;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	justify-self: center;
 }
 
