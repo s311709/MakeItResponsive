@@ -144,12 +144,9 @@
 	
 	.meet-team8{
 		grid-column: 1/9;
-		grid-row: 56/60;
+		grid-row: 56/61;
 	}
 	
-	.page-sizer{
-		grid-row: 1/60;
-	}
 	
 	h1{
 		color: purple;
