@@ -3,57 +3,11 @@
 
 @media (max-width: 1100px) {
 	
-.column_cards{
-	grid-column: 1/11;
-	grid-row: 1/35;
-}
-
-	/*
-	.item3 {
-		grid-column: 1/5;
-		grid-row: 1/12;
-	}
-
-	.item4 {
-		grid-column: 5/9;
-		grid-row: 2/11;
-	}
-
-	/*small header*/
-	/*.item5{
-		grid-column: 3/7;
-		grid-row: 12/13;
-	}
-	
-	#about-image-grid{
+	.column_cards{
 		grid-column: 1/11;
-		grid-row: 13/19;
+		grid-row: 1/35;
 	}
-	
-	.img-grid1{
-		grid-column: 1/2;
-		grid-row: 1/5;
-	}
-	
-	.img-grid2{
-		grid-column: 2/4;
-		grid-row: 1/5;
-	}
-	
-	.img-grid3{
-		grid-column: 4/5;
-		grid-row: 1/5;
-	}
-	
-	.img-grid4{
-		grid-column: 1/2;
-		grid-row: 5/8;
-	}
-	*/
-		
-	*{
-		color: pink;
-	}
+
 }
 	
 
@@ -63,12 +17,6 @@
  	.column_cards{
 		grid-column: 1/11;
 		grid-row: 1/60;
-	}
-
- 	
-
-	*{
-		color: red;
 	}
 
 }
@@ -82,13 +30,6 @@
 		grid-row: 1/55;
 	}
 
- 	
-	
-
-	*{
-		color: purple;
-	}
-
 }
 
 
@@ -99,11 +40,35 @@
 		grid-row: 1/52;
 	}
 
- 	
-	
 
-	*{
-		color: green;
+}
+
+ @media (max-width: 450px) {
+	
+ 	.column_cards{
+		grid-column: 1/11;
+		grid-row: 1/60;
 	}
+
+
+}
+
+ @media (max-width: 350px) {
+	
+ 	.column_cards{
+		grid-column: 1/11;
+		grid-row: 1/65;
+	}
+
+
+}
+
+ @media (max-width: 300px) {
+	
+ 	.column_cards{
+		grid-column: 1/11;
+		grid-row: 1/70;
+	}
+
 
 }
