@@ -324,7 +324,7 @@ på de andre sidene*/
 
 .footer{
 	grid-column: 1/25;
-	grid-row: 30/35;
+	grid-row: 30/32;
 
 	background-color:white;
 
@@ -334,6 +334,7 @@ på de andre sidene*/
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 25px;
 	border-top: 5px solid black;
+
 
 }
 
