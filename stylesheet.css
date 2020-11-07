@@ -181,7 +181,7 @@ på de andre sidene*/
 
 .column_cards{
 	grid-column: 1/25;
-	grid-row: 1/30
+	grid-row: 1/30;
 }
 
 /*.item3 {
