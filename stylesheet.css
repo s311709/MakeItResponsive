@@ -326,13 +326,14 @@ på de andre sidene*/
 	grid-column: 1/25;
 	grid-row: 30/35;
 
-	background-color:slategray;
+	background-color:white;
 
 	display: grid;
 
 	/*Denne koden ser ikke ut til å gjøre noe? - Andreas*/
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 25px;
+	border-top: 5px solid black;
 
 }
 

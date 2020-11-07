@@ -13,9 +13,7 @@ body {
     padding-bottom: 0px;
     padding-top: 0px;
     z-index: 10;
-    background-color #FFB733;
     background-color: #FFD52D;
-    background-color  #DB6D06;
     border-bottom: 1px solid black;
 }
 
@@ -42,10 +40,7 @@ body {
     padding: 1rem;
     padding-top: 1.5rem;
     text-decoration: none;
-    font-family Helvetica;
-    font-size 20pt;
     font-family: 'Fjalla One', sans-serif;
-    font-family 'Merriweather', serif;
     font-weight: 600;
     margin-right: 40px;
     text-shadow: 1px 1px 0 #CDAC29,
@@ -130,8 +125,9 @@ body {
     bottom: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(12, 12, 17);
-    opacity: 0.95;
+    background-color rgb(12, 12, 17);
+    background-color: #FFD52D;
+    opacity: 1;
     display: none;
     z-index: 100;
 }
@@ -157,11 +153,12 @@ body {
     font-family: Verdana;
     font-size: 20pt;
     z-index: 10;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .navHr{
     height: 2px;
-    background-color: #ccc;
+    background-color: black;
     border: none;
 }
 
