@@ -76,6 +76,7 @@ body {
     width: 100%;
     transition: width .4s;
 }
+
 .navigationbar a:hover::after {
     width: 100%;
     transition: width .4s;
