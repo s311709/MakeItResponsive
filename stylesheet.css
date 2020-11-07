@@ -389,7 +389,7 @@ på de andre sidene*/
 
 	.footer{
 		grid-column: 1/11;
-		grid-row: 30/41;
+		grid-row: 30/34;
 		background-color: white;
 	}
 
