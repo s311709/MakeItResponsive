@@ -1,0 +1,65 @@
+/* denne funksjonen skal gi samme effekt som onclick når man trykker enter eller mellomrom*/
+ function handleBtnKeyDown(x) {
+  if (event.key === "" || event.key === "Spacebar" ||event.key === "Enter") {
+     // prevent default action to stop scrolling when space is pressed
+    event.preventDefault();
+    x.classList.toggle("change");
+    forandreNav();
+  }
+}
+
+
+(Function hamburgerfunc)
+
+
+// trying to toggle aria-pressed
+const tog = document.querySelector(["aria-pressed"]);
+const handleToggle = () => tog.classList.toggle("true");
+
+tog.onclick = () => tog.classList.toggle("true");
+tog.addEventListener('key', (event) => {
+  if(event.key === "" || event.key === "Spacebar" ||event.key === "Enter") {
+    tog.classList.toggle("true");
+}
+
+
+
+discards
+
+// see documentation in sources //
+// trying to toggle aria-pressed //
+/*
+const tog = document.querySelector(["aria-pressed"]);
+const handleToggle = () => tog.classList.toggle("active");
+
+tog.onclick = () => tog.classList.toggle("active");
+tog.addEventListener('key', (event) => {
+  if(event.key === "" || event.key === "Spacebar" ||event.key === "Enter") {
+    handleToggle();
+  }
+});
+*/
+
+
+/*
+toggle.addEventListener('click', function(e) {
+  e.preventDefault();
+element.classlist.toggle(["aria-pressed"]);
+)}
+
+
+document.querySelector(["aria-pressed"]).addEventListener('click', hamburgFunc(this) {
+
+});
+
+document.addEventListener('click', function (event) {
+
+});
+*/
+
+  /*
+  let pressed = x.target.getAttribute('aria-pressed') === 'true';
+  x.target.setAttribute('aria-pressed', String(!pressed));
+});*/
+
+// prøvd å legge til en toggle på aria-pressed her //

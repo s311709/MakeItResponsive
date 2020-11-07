@@ -61,10 +61,27 @@ function windowStr(){
 
     }
 }
+/* denne funksjonen skal gi samme effekt som onclick når man trykker enter eller mellomrom*/
+
+ function handleBtnKeyDown(x) {
+  if (event.key === "" || event.key === "Spacebar" ||event.key === "Enter") {
+     // prevent default action to stop scrolling when space is pressed
+    event.preventDefault();
+    x.classList.toggle("change");
+    forandreNav();
+    toggleButton(event.target);
+  }
+}
 
 function hamburgFunc(x) {
     x.classList.toggle("change");
     forandreNav();
+    toggleButton(event.target);
+}
+
+function toggleButton(element) {
+  var pressed = (element.getAttribute("aria-pressed") === "true");
+  element.setAttribute("aria-pressed", !pressed);
 }
 
 function forandreNav(){

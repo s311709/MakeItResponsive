@@ -102,7 +102,7 @@ body {
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-#hamburgContainer{
+#hamburgContainer, [role="button"]{
     float: right;
     display: none;
     color: black;
@@ -116,6 +116,11 @@ body {
     left: 90%;
     z-index: 10;
 }
+
+#hamburgContainer[aria-pressed="true"], [role="button"][aria-pressed="true"] {
+
+}
+
 
 #tint{
     position: fixed;
@@ -131,6 +136,8 @@ body {
     display: none;
     z-index: 100;
 }
+
+
 
 #navHidden{
     display: none;
