@@ -25,87 +25,95 @@
 
 </head>
 <body>
-    <div id="hamburgContainer" onclick="hamburgFunc(this)" aria-label="open the menu">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-    <div id="tint">
-    </div>
-    <div id="navHidden">
-        <hr class="navHr">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="meetOurTeam.html">Meet The Team</a>
-		<a class="active" href="schedule.html">Schedule</a>
-		<a href="signUpForCamp.html">Signup</a>
-        <hr class="navHr">
-    </div>
-    <div id="container">
-        <div class="navigationbar">
-            <a class="navTag" href="signUpForCamp.html">Sign Up</a>
-			<a class="navTag" href="meetOurTeam.html">Meet The Team</a>
-			<a class="navTag active" href="schedule.html">Schedule</a>
-            <a class="navTag" href="about.html">About</a>
-            <a class="navTag" href="index.html">Home</a>
-            <a id="bildeA"><img id="bilde" src="placeholderlogo.png"></a>
-        </div>
-    </div>
+		<a class="skip-main" href="#main">Skip to main content</a>
+	<div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
+	role="button" aria-pressed="false" aria-label="toggle menu">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+	</div>
+	<div id="tint">
+	</div>
+	<div id="navHidden">
+			<hr class="navHr" role="navigation" aria-label="navmobile">
+			<a class="active" href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="meetOurTeam.html">Meet The Team</a>
+	<a href="schedule.html">Schedule</a>
+	<a href="signUpForCamp.html">Signup</a>
+			<hr class="navHr">
+	</div>
+	<div id="container">
+		<!--- elementene tab'es i feil rekkefølge,
+		men flytter jeg plass på de bytter de plass i menyen -->
+			<div class="navigationbar" role="navigation" aria-label="navigation">
+					<a class="navTag" href="signUpForCamp.html">Sign Up</a>
+					<a class="navTag" href="meetOurTeam.html">Meet The Team</a>
+					<a class="navTag" href="schedule.html">Schedule</a>
+					<a class="navTag" href="about.html">About</a>
+					<a class="navTag active" href="index.html">Home</a>
+					<a id="bildeA"><img id="bilde" src="placeholderlogo.png"></a>
+			</div>
+	</div>
 
 <div  class="wrapper"> <!-- alt innhold på siden skal inni denne diven -->
+<p id="main" tabindex="-1">
 
 <div class="headline" role="banner"><h1>INNOVATION CAMP SCHEDULE</h1><hr class="underline_header"></div>
 
 <div class="contents-grid" role="contents">
 
 	<div class="calendar" aria-labelledby="schedule">
+		<!--  gjøre caption usynlig om den skal beholdes -->
+				<!--  tabindex="0" er så man kan tab'e gjennom elementene i tidslinja
+			bør kanskje fjernes når vi har en navigasjonsbar -->
 		<caption>
 			Calendar of upcoming innovation camps in the form of a timeline, navigated with the sidebar menu
 		</caption>
 		<div class="container left">
-			<div class="content">
+			<div class="content" tabindex="0">
 				<h2>TEST</h2>
 				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ab provident rem ipsa, fuga repellat atque hic eos tenetur expedita ullam iure fugit beatae sequi culpa laborum! Suscipit, repudiandae nulla.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content">
+			<div class="content" tabindex="0">
 				<h2>TEST2</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem assumenda voluptas laborum unde iusto facilis maxime! Illo ipsa, alias doloribus rem deleniti exercitationem! Ipsam quasi ullam soluta nulla enim architecto?</p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content">
+			<div class="content" tabindex="0">
 				<h2>TEST3</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint temporibus sunt quo ipsa numquam voluptates nemo aspernatur officiis, quod odio itaque culpa magnam fuga? Ex minima architecto incidunt? Perspiciatis, repudiandae.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content">
+			<div class="content" tabindex="0">
 				<h2>TEST4</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor adipisci doloremque aut odio cumque architecto laboriosam reprehenderit earum! Consectetur, quos vero dolore praesentium eveniet qui cupiditate mollitia delectus ab nihil.</p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content">
+			<div class="content" tabindex="0">
 				<h2>TEST5</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero delectus atque autem commodi omnis possimus laborum. Quos tenetur assumenda quisquam velit pariatur. Consequatur quae repudiandae corporis, illo delectus nesciunt.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content">
+			<div class="content" tabindex="0">
 				<h2>TEST6</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, aperiam fugit fugiat at veritatis esse illo quidem possimus omnis sit debitis, odit perspiciatis. Eius, nulla expedita? Libero velit nobis in.</p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content">
+			<div class="content" tabindex="0">
 				<h2>TEST7</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eius, velit iste dolores adipisci dolorem reprehenderit nihil voluptates maxime incidunt repudiandae aliquam doloribus dolor, vel repellendus sit numquam reiciendis neque.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content">
+			<div class="content" tabindex="0">
 				<h2>TEST8</h2>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet eaque magni vel, nobis pariatur reiciendis, mollitia nemo beatae, laborum quisquam recusandae repellendus vero amet ad nisi esse optio distinctio minima?</p>
 			</div>

@@ -116,7 +116,8 @@ body {
     left: 90%;
     z-index: 10;
 }
-
+/* hvis vi vil lage en visuell bekreftelse på at knappen er trykka på/aktiv
+for eksempel lage en border eller bakgrunnsfarge*/
 #hamburgContainer[aria-pressed="true"], [role="button"][aria-pressed="true"] {
 
 }
