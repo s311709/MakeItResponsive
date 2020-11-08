@@ -21,7 +21,11 @@
 
 	<script src="navbarJs.js"></script>
 
+	<script src="mndBar.js"></script>
+
 	<link rel="stylesheet" href="menubarsave.css">
+
+
 
 </head>
 <body>
@@ -35,13 +39,13 @@
 	<div id="tint">
 	</div>
 	<div id="navHidden">
-			<hr class="navHr" role="navigation" aria-label="navmobile">
-			<a class="active" href="index.html">Home</a>
-			<a href="about.html">About</a>
-			<a href="meetOurTeam.html">Meet The Team</a>
-	<a href="schedule.html">Schedule</a>
-	<a href="signUpForCamp.html">Signup</a>
-			<hr class="navHr">
+		<hr class="navHr" role="navigation" aria-label="navmobile">
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="meetOurTeam.html">Meet The Team</a>
+		<a class="active" href="schedule.html">Schedule</a>
+		<a href="signUpForCamp.html">Signup</a>
+		<hr class="navHr">
 	</div>
 	<div id="container">
 		<!--- elementene tab'es i feil rekkefølge,
@@ -49,98 +53,135 @@
 			<div class="navigationbar" role="navigation" aria-label="navigation">
 					<a class="navTag" href="signUpForCamp.html">Sign Up</a>
 					<a class="navTag" href="meetOurTeam.html">Meet The Team</a>
-					<a class="navTag" href="schedule.html">Schedule</a>
+					<a class="navTag active" href="schedule.html">Schedule</a>
 					<a class="navTag" href="about.html">About</a>
-					<a class="navTag active" href="index.html">Home</a>
+					<a class="navTag" href="index.html">Home</a>
 					<a id="bildeA"><img id="bilde" src="placeholderlogo.png"></a>
 			</div>
 	</div>
+<div class="dropdown">
+	<button class="dropbtn">Quarter</button>
+	<div class="dropdown-content">
+		<a href="#Q1">Q1</a>
+		<a href="#Q2">Q2</a>
+		<a href="#Q3">Q3</a>
+		<a href="#Q4">Q4</a>
+	</div>
+	</div>
+	  
+
+<div class="sidenav">
+	<a>Jump To:</a>
+	<hr>
+	<a href="#Q1">		
+		<span class="tidligereA">Q1</span>
+		<span class="mndNm">January - February - March</span>
+	</a>
+	<hr>
+	<a href=#Q2>		
+		<span class="tidligereA">Q2</span>
+		<span class="mndNm">April - May - June</span>
+	</a>
+	<hr>
+	<a href=#Q3>		
+		<span class="tidligereA">Q3</span>
+		<span class="mndNm">July - August - September</span>
+	</a>
+	<hr>
+	<a href=#Q4>		
+		<span class="tidligereA">Q4</span>
+		<span class="mndNm">October - November - December</span>
+	</a>
+</div>
+	  
 
 <div  class="wrapper"> <!-- alt innhold på siden skal inni denne diven -->
-<p id="main" tabindex="-1">
+<!-- <p id="main" tabindex="-1"> -->
 
-<div class="headline" role="banner"><h1>INNOVATION CAMP SCHEDULE</h1><hr class="underline_header"></div>
+<div class="headline" role="banner"><h1 id="Q1">INNOVATION CAMP SCHEDULE</h1><hr class="underline_header"></div>
 
-<div class="contents-grid" role="contents">
-
+<!-- <div class="contents-grid" role="contents">-->
 	<div class="calendar" aria-labelledby="schedule">
 		<!--  gjøre caption usynlig om den skal beholdes -->
 				<!--  tabindex="0" er så man kan tab'e gjennom elementene i tidslinja
 			bør kanskje fjernes når vi har en navigasjonsbar -->
-		<caption>
-			Calendar of upcoming innovation camps in the form of a timeline, navigated with the sidebar menu
-		</caption>
 		<div class="container left">
 			<div class="content" tabindex="0">
-				<h2>TEST</h2>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ab provident rem ipsa, fuga repellat atque hic eos tenetur expedita ullam iure fugit beatae sequi culpa laborum! Suscipit, repudiandae nulla.</p>
+				<h2>January 14-18</h2>
+				<p>Join us for our first camp of the year. The goal of this innovation camp is to inprint the mindset of an innovator in the participants. The camp will run from the 14th to the 18th of January, 17-21 EST.</p>
 			</div>
 		</div>
 		<div class="container right">
 			<div class="content" tabindex="0">
-				<h2>TEST2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem assumenda voluptas laborum unde iusto facilis maxime! Illo ipsa, alias doloribus rem deleniti exercitationem! Ipsam quasi ullam soluta nulla enim architecto?</p>
+				<h2>February 22-25</h2>
+				<p>This camp will be focused around hands-on innovation. The participants will learn the basics of realizing and bringing their imagination to life. This camp will teach woodworking, metalworking and basic electical engineering. </p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content" tabindex="0">
-				<h2>TEST3</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint temporibus sunt quo ipsa numquam voluptates nemo aspernatur officiis, quod odio itaque culpa magnam fuga? Ex minima architecto incidunt? Perspiciatis, repudiandae.</p>
+			<div class="content" tabindex="0" id="Q2">
+				<h2>March 12-16</h2>
+				<p>The March camp will be focused around your imagination. The participants will learn the basics of how to think like an innovator.</p>
 			</div>
 		</div>
 		<div class="container right">
 			<div class="content" tabindex="0">
-				<h2>TEST4</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor adipisci doloremque aut odio cumque architecto laboriosam reprehenderit earum! Consectetur, quos vero dolore praesentium eveniet qui cupiditate mollitia delectus ab nihil.</p>
+				<h2>April 2-6</h2>
+				<p>The goal of this innovation camp is to futher inprint the mindset of an innovator in the participants. The participants will be asked to invent a solution to a problem they have in their daily life. The camp will run from the 2nd to the 6th of May, 17-21 EST.</p>
 			</div>
 		</div>
 		<div class="container left">
 			<div class="content" tabindex="0">
-				<h2>TEST5</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero delectus atque autem commodi omnis possimus laborum. Quos tenetur assumenda quisquam velit pariatur. Consequatur quae repudiandae corporis, illo delectus nesciunt.</p>
+				<h2>May 17-22</h2>
+				<p>Our only zoom-only innovation camp takes place between 17-21 EST in June. This camp will feature many world-renowned guest speakers, who will further inspire and guide the participants to become great innovators.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content" tabindex="0">
-				<h2>TEST6</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, aperiam fugit fugiat at veritatis esse illo quidem possimus omnis sit debitis, odit perspiciatis. Eius, nulla expedita? Libero velit nobis in.</p>
+			<div class="content" tabindex="0"  id="Q3">
+				<h2>June 12-13</h2>
+				<p>Our shortest, but maybe most important camp will run for two days in the middle of June. This camp is focused on teaching the participants how to take the next step, how to further develop and branch out their products and innovations to the world.</p>
 			</div>
 		</div>
 		<div class="container left">
 			<div class="content" tabindex="0">
-				<h2>TEST7</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eius, velit iste dolores adipisci dolorem reprehenderit nihil voluptates maxime incidunt repudiandae aliquam doloribus dolor, vel repellendus sit numquam reiciendis neque.</p>
+				<h2>July 15-19</h2>
+				<p>The July camp has for many years been a meeting ground for our innovators and experts in important fields, and this year is no different. We will get you in touch with the market-leading experts in whichever field you need to further build your innovation.</p>
 			</div>
 		</div>
 		<div class="container right">
 			<div class="content" tabindex="0">
-				<h2>TEST8</h2>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet eaque magni vel, nobis pariatur reiciendis, mollitia nemo beatae, laborum quisquam recusandae repellendus vero amet ad nisi esse optio distinctio minima?</p>
+				<h2>August 6-8</h2>
+				<p>The August camp will be focused around your imagination. The participants will learn the basics of how to think like an innovator.</p>
+			</div>
+		</div>
+		<div class="container left">
+			<div class="content" tabindex="0" id="Q4">
+				<h2>September 13-15</h2>
+				<p>This camp will be focused around hands-on innovation. The participants will learn the basics of realizing and bringing their imagination to life. This camp will teach woodworking, metalworking and basic electical engineering. </p>
+			</div>
+		</div>
+		<div class="container right">
+			<div class="content" tabindex="0">
+				<h2>October</h2>
+				<p>TBA</p>
+			</div>
+		</div>
+		<div class="container left">
+			<div class="content" tabindex="0">
+				<h2>November</h2>
+				<p>TBA</p>
+			</div>
+		</div>
+		<div class="container right">
+			<div class="content" tabindex="0">
+				<h2>December</h2>
+				<p>TBA</p>
 			</div>
 		</div>
 	</div>
-
-	<!--<div class="item schedule-item schedule1">
-		<a href="index.html">index.html</a>
-		<a href="about.html">about.html</a>
-		<a href="meetOurTeam.html">Meet our team.html</a>
-		<a href="schedule.html">schedule.html</a>
-	</div>
-
-	<div class="item schedule-item schedule2"><h2>Kalender?</h2></div>
-
-	<div class="item schedule-item schedule3"><h2></h2>1</div>
-
-	<div class="item schedule-item schedule4"><h2></h2>2</div>
-
-	<div class="item schedule-item schedule5"><h2></h2>3</div>
-
-	<div class="item schedule-item schedule6"><h2></h2>4</div>-->
-
-</div>
+<!--</div>-->
 <!-- contents grid div --->
 
-<div class="footer">
+<div class="footer" id="footerSchedule">
 	<div class="contact-info">
 		<li>
 			<ul>555 99 321</ul>

@@ -132,9 +132,8 @@ for eksempel lage en border eller bakgrunnsfarge*/
     bottom: 0;
     height: 100%;
     width: 100%;
-    background-color rgb(12, 12, 17);
-    background-color: #FFD52D;
-    opacity: 1;
+    background-color: rgb(12, 12, 17);
+    opacity: 0.5;
     display: none;
     z-index: 100;
 }
