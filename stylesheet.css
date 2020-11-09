@@ -12,10 +12,6 @@
 /* ^^Fjerner forhåndsinnstile instillinger
 for alt på siden ^^ */
 
-html{
-	overflow-x: hidden;
-}
-
 h2{
 	color:gray;
 }
@@ -430,7 +426,7 @@ a.skip-main {
     overflow:hidden;
     z-index:-999;
 }
-a.skip-main:focus, a.skip-main:active {
+a.skip-main:focus, a.skip-main:active a.skip:hover{
     color: white;
     background-color:black;
     left: auto;
