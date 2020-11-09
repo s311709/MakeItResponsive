@@ -11,12 +11,12 @@ function windowStr(){
     }
     else if (window.innerWidth >= 1100 && document.getElementById("tint").style.display == "block"){
         tall = tall+1
-        document.body.style.overflow="visible";
+        document.body.style.overflowY="visible";
         document.getElementById("hamburgContainer").classList.toggle("change");
         document.getElementById("hamburgContainer").style.display="none";
         document.getElementById("container").style.display="block";
         document.getElementById("tint").style.display="none";
-        document.body.overflow="visible";
+        document.body.overflowY="visible";
         document.getElementById("navHidden").style.display="none";
         document.getElementsByClassName("wrapper")[0].style.marginTop = "100px";
 
@@ -25,7 +25,7 @@ function windowStr(){
         document.getElementById("hamburgContainer").style.display="none";
         document.getElementById("container").style.display="block";
         document.getElementById("tint").style.display="none";
-        document.body.overflow="visible";
+        document.body.overflowY="visible";
         document.getElementById("navHidden").style.display="none";
         document.getElementsByClassName("wrapper")[0].style.marginTop = "100px";
 
@@ -94,17 +94,18 @@ function forandreNav(){
     if (tall %2 == 0){
         console.log("mod2");
         document.getElementById("tint").style.display="block";
-        document.body.style.overflow="hidden";
+        document.body.style.overflowY="hidden";
         document.getElementById("tint").style.zIndex="9";
         document.getElementById("hamburgContainer").style.zIndex="10";
         document.getElementById("navHidden").style.zIndex="10";
-        document.body.overflow="hidden";
+        document.body.overflowY="hidden";
         document.getElementById("navHidden").style.display="block";
     }
     else{
         console.log("mod1");
         document.getElementById("tint").style.display="none";
-        document.body.style.overflow="visible";
+        document.getElementById("hamburgContainer").style.display="block";
+        document.body.style.overflowY="visible";
         document.getElementById("navHidden").style.display="none";
     }
 }
