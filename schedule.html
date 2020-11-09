@@ -31,7 +31,7 @@
 <body>
 		<a class="skip-main" href="#main">Skip to main content</a>
 	<div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
-	role="button" aria-pressed="false" aria-label="toggle menu">
+	role="button" aria-pressed="false" aria-labelledby="toggle menu">
 			<div class="bar1"></div>
 			<div class="bar2"></div>
 			<div class="bar3"></div>
@@ -39,7 +39,7 @@
 	<div id="tint">
 	</div>
 	<div id="navHidden">
-		<hr class="navHr" role="navigation" aria-label="navmobile">
+		<hr class="navHr" role="navigation" aria-labelledby="mobile navigation">
 		<a href="index.html">Home</a>
 		<a href="about.html">About</a>
 		<a href="meetOurTeam.html">Meet The Team</a>
@@ -50,7 +50,7 @@
 	<div id="container">
 		<!--- elementene tab'es i feil rekkefølge,
 		men flytter jeg plass på de bytter de plass i menyen -->
-			<div class="navigationbar" role="navigation" aria-label="navigation">
+			<div class="navigationbar" role="navigation" aria-labelledby="main navigation">
 					<a class="navTag" href="signUpForCamp.html">Sign Up</a>
 					<a class="navTag" href="meetOurTeam.html">Meet The Team</a>
 					<a class="navTag active" href="schedule.html">Schedule</a>
@@ -60,7 +60,8 @@
 			</div>
 	</div>
 <div class="dropdown">
-	<button class="dropbtn">Quarter</button>
+	<button class="dropbtn" aria-expanded=false aria-labelledby="schedule navigation">
+	Quarters</button>
 	<div class="dropdown-content">
 		<a href="#Q1">Q1</a>
 		<a href="#Q2">Q2</a>
@@ -68,32 +69,32 @@
 		<a href="#Q4">Q4</a>
 	</div>
 	</div>
-	  
 
-<div class="sidenav">
+
+<div class="sidenav" role="navigation" aria-labelledby="schedule navigation">
 	<a>Jump To:</a>
 	<hr>
-	<a href="#Q1">		
+	<a href="#Q1">
 		<span class="tidligereA">Q1</span>
 		<span class="mndNm">January - February - March</span>
 	</a>
 	<hr>
-	<a href=#Q2>		
+	<a href=#Q2>
 		<span class="tidligereA">Q2</span>
 		<span class="mndNm">April - May - June</span>
 	</a>
 	<hr>
-	<a href=#Q3>		
+	<a href=#Q3>
 		<span class="tidligereA">Q3</span>
 		<span class="mndNm">July - August - September</span>
 	</a>
 	<hr>
-	<a href=#Q4>		
+	<a href=#Q4>
 		<span class="tidligereA">Q4</span>
 		<span class="mndNm">October - November - December</span>
 	</a>
 </div>
-	  
+
 
 <div  class="wrapper"> <!-- alt innhold på siden skal inni denne diven -->
 <!-- <p id="main" tabindex="-1"> -->
@@ -106,73 +107,73 @@
 				<!--  tabindex="0" er så man kan tab'e gjennom elementene i tidslinja
 			bør kanskje fjernes når vi har en navigasjonsbar -->
 		<div class="container left">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>January 14-18</h2>
 				<p>Join us for our first camp of the year. The goal of this innovation camp is to inprint the mindset of an innovator in the participants. The camp will run from the 14th to the 18th of January, 17-21 EST.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>February 22-25</h2>
 				<p>This camp will be focused around hands-on innovation. The participants will learn the basics of realizing and bringing their imagination to life. This camp will teach woodworking, metalworking and basic electical engineering. </p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content" tabindex="0" id="Q2">
+			<div class="content" id="Q2">
 				<h2>March 12-16</h2>
 				<p>The March camp will be focused around your imagination. The participants will learn the basics of how to think like an innovator.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>April 2-6</h2>
 				<p>The goal of this innovation camp is to futher inprint the mindset of an innovator in the participants. The participants will be asked to invent a solution to a problem they have in their daily life. The camp will run from the 2nd to the 6th of May, 17-21 EST.</p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>May 17-22</h2>
 				<p>Our only zoom-only innovation camp takes place between 17-21 EST in June. This camp will feature many world-renowned guest speakers, who will further inspire and guide the participants to become great innovators.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content" tabindex="0"  id="Q3">
+			<div class="content"id="Q3">
 				<h2>June 12-13</h2>
 				<p>Our shortest, but maybe most important camp will run for two days in the middle of June. This camp is focused on teaching the participants how to take the next step, how to further develop and branch out their products and innovations to the world.</p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>July 15-19</h2>
 				<p>The July camp has for many years been a meeting ground for our innovators and experts in important fields, and this year is no different. We will get you in touch with the market-leading experts in whichever field you need to further build your innovation.</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>August 6-8</h2>
 				<p>The August camp will be focused around your imagination. The participants will learn the basics of how to think like an innovator.</p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content" tabindex="0" id="Q4">
+			<div class="content" id="Q4">
 				<h2>September 13-15</h2>
 				<p>This camp will be focused around hands-on innovation. The participants will learn the basics of realizing and bringing their imagination to life. This camp will teach woodworking, metalworking and basic electical engineering. </p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>October</h2>
 				<p>TBA</p>
 			</div>
 		</div>
 		<div class="container left">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>November</h2>
 				<p>TBA</p>
 			</div>
 		</div>
 		<div class="container right">
-			<div class="content" tabindex="0">
+			<div class="content">
 				<h2>December</h2>
 				<p>TBA</p>
 			</div>
