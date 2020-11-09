@@ -12,6 +12,10 @@
 /* ^^Fjerner forhåndsinnstile instillinger
 for alt på siden ^^ */
 
+html{
+	overflow-x: hidden;
+}
+
 h2{
 	color:gray;
 }
