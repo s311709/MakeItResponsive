@@ -80,10 +80,11 @@ function toggleButton(element) {
   element.setAttribute("aria-pressed", !pressed);
 }
 
-function toggleButton(element) {
+/* function toggleButton(element) {
   var pressed  = (element.getAttribute("aria-expanded") === "true");
   element.setAttribute("aria-expanded", !expanded);
 }
+*/
 
 function forandreNav(){
     tall = tall+1;
