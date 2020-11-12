@@ -23,9 +23,10 @@
 
 	<link rel="stylesheet" href="menubarsave.css">
 
+	<a class="skip-main" href="#main">Skip to main content</a>
+
 </head>
 <body>
-		<a class="skip-main" href="#main">Skip to main content</a>
 	<div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
 	role="button" aria-pressed="false" aria-label="menu">
 			<div class="bar1"></div>
@@ -57,7 +58,7 @@
 	</div>
 
 <div  class="wrapper"> <!-- alt innhold på siden skal inni denne diven -->
-<p id="main" tabindex="-1">
+<p id="main" role="main" tabindex="-1">
 
 <div class="headline" role="banner"><h1>ABOUT INOVA</h1><hr class="underline_header"></div>
 

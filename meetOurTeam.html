@@ -21,9 +21,10 @@
 
 	<link rel="stylesheet" href="menubarsave.css">
 
+	<a href="#wrapper" class="skip-main">Skip to main content</a>
+
 </head>
 <body>
-		<a href="#main" class="skip-main">Skip to main content</a>
 
 	<div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
 	role="button" aria-pressed="false" aria-label="menu">
@@ -51,17 +52,18 @@
 				<a class="navTag" href="schedule.html">Schedule</a>
 				<a class="navTag" href="about.html">About</a>
 				<a class="navTag" href="index.html">Home</a>
-				<a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo"></a>
+				<a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" role="banner"></a>
 			</div>
 	</div>
 
 
-<div  class="wrapper"> <!-- alt innhold på siden skal inni denne diven -->
+<div  class="wrapper" role="main"> <!-- alt innhold på siden skal inni denne diven -->
 <p id="main" tabindex="-1">
 
-<div class="headline meet-headline" role="banner"><h1>MEET OUR TEAM</h1><hr class="underline_header"></div>
+<div class="headline meet-headline"><h1>MEET OUR TEAM</h1>
+	<hr class="underline_header"></div>
 
-<div class="contents-grid team-contents" role="main">
+<div class="contents-grid team-contents">
 
 	<div class="item teamitem meet-team1">
 		<img src="odion.jpg" alt="Portrait of Odion Harb">
