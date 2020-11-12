@@ -94,7 +94,7 @@ h2{
 /* samme greia her som på item, la til ID for å ikke påvirke headline
 på de andre sidene*/
 
-#headline-FP{
+.headline-FP{
 	grid-column: 1/11;
 	grid-row: 1/4;
 	position sticky;
@@ -104,7 +104,7 @@ på de andre sidene*/
 
 }
 
-#headline-FP > h1{
+.headline-FP > h1{
 	margin-top: 14px;
 		font-family: 'Helvetica Neue', sans-serif;
 		color: #fc9103;

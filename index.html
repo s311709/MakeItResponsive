@@ -25,7 +25,7 @@
 
 </head>
 <body>
-	<a class="skip-main" href="#main" tabindex="1">Skip to main content</a>
+	<a class="skip-main" href="#maincontent" tabindex="1">Skip to main content</a>
 	<!-- tabindex er så man kan finne frem til elementet med tastaturet,
 			0 så den ikke påvirker andre elementer/rekkefølge -->
     <div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
@@ -54,14 +54,14 @@
 			<a class="navTag" href="schedule.html">Schedule</a>
             <a class="navTag" href="about.html">About</a>
             <a class="navTag active" href="index.html">Home</a>
-            <a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" ></a>
+            <a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" role="banner"></a>
         </div>
     </div>
 
 
-<div class="wrapper" id="frontpage-wrapper"> <!-- alt innhold på siden skal inni denne diven -->
-<p id="main" tabindex="-1">
-<div id="headline-FP" role="banner"><h1>WE ARE INOVA</h1></div>
+<div class="wrapper" id="frontpage-wrapper"> <!-- alt innhold på siden skal inni denne diven
+<p id="main" tabindex="-1">  -->
+<div class="headline-FP" role="main" id="maincontent"><h1>WE ARE INOVA</h1></div>
 
 <div class="contents-grid fp-contents-grid" role="contents" aria-label="content">
 	<div class="item item1f">
