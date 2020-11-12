@@ -23,11 +23,11 @@
 
 	<link rel="stylesheet" href="menubarsave.css">
 
-	<a class="skip-main" href="#main">Skip to main content</a>
 
 </head>
 <body>
-		<a class="skip-main" href="#maincontent">Skip to main content</a>
+		<a class="skip-main" href="#maincontent" tabindex="1">Skip to main content</a>
+
 	<div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
 	role="button" aria-pressed="false" aria-labelledby="menu">
 			<div class="bar1"></div>
@@ -57,18 +57,17 @@
 					<a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" role="banner"></a>
 			</div>
 	</div>
-	<div class="topnav" tabindex="0" aria-label="schedule navigation">
-		<a class="n" href="#Q1">Q1</a>
-		<a class="n" href="#Q2">Q2</a>
-		<a class="n" href="#Q3">Q3</a>
-		<a class="n" href="#Q4">Q4</a>
-	  </div>
 
 <div  class="wrapper"> <!-- alt innhold på siden skal inni denne diven -->
 <!--		<p id="main" role="main" tabindex="-1"> -->
-		<div class="headline schedule_headline"><h1 id="Q1" role="main" id="maincontent">
+		<div id="Q1" class="headline schedule_headline"><h1 role="main" id="maincontent">
 			INNOVATION CAMP SCHEDULE</h1><hr class="underline_header"></div>
-
+			<div class="topnav" tabindex="0" role="navigation" aria-label="schedule">
+				<a class="n" href="#Q1">Q1</a>
+				<a class="n" href="#Q2">Q2</a>
+				<a class="n" href="#Q3">Q3</a>
+				<a class="n" href="#Q4">Q4</a>
+			  </div>
 
 <div class="sidenav" role="navigation" tabindex="0" aria-labelledby="schedule">
 	<a>Jump To:</a>

@@ -22,11 +22,10 @@
 	<link rel="stylesheet" href="menubarsave.css">
 
 
+
 </head>
 <body>
-
-		<a class="skip-main" href="#maincontent">Skip to main content</a>
-
+	<a class="skip-main" href="#main" tabindex="1">Skip to main content</a>
 	<!-- tabindex er så man kan finne frem til elementet med tastaturet,
 			0 så den ikke påvirker andre elementer/rekkefølge -->
     <div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
@@ -55,15 +54,16 @@
 			<a class="navTag" href="schedule.html">Schedule</a>
             <a class="navTag" href="about.html">About</a>
             <a class="navTag active" href="index.html">Home</a>
-            <a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" role="banner"></a>
+            <a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" ></a>
         </div>
     </div>
 
 
 <div class="wrapper" id="frontpage-wrapper"> <!-- alt innhold på siden skal inni denne diven -->
-<p id="main" role="main" tabindex="-1">
-<div id="headline-FP"><h1 role="main" id="maincontent">WE ARE INOVA</h1></div>
-<div class="contents-grid fp-contents-grid">
+<p id="main" tabindex="-1">
+<div id="headline-FP" role="banner"><h1>WE ARE INOVA</h1></div>
+
+<div class="contents-grid fp-contents-grid" role="contents" aria-label="content">
 	<div class="item item1f">
 		<h2 class= "FP-h2">
 			We are the masters of frugal innovation,
@@ -82,8 +82,10 @@
 
 	<div class="item item4f">
 		<h3 class = "FP-h2" id="future"> An investment for our future</div>
+
 </div> <!-- contents grid div --->
-<div class="footer" role="contentinfo">
+
+<div class="footer">
 	<div class="contact-info">
 		<li>
 			<ul>555 99 321</ul>
