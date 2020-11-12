@@ -36,6 +36,7 @@ function windowStr(){
         document.getElementsByClassName("navigationbar")[0].style.borderBottom = "2px black outset";
         document.getElementById("bilde").style.width="50px";
         document.getElementById("bilde").style.height="50px";
+        document.getElementsByClassName("topnav")[0].style.top="50px";
         for (i = 0; i <= 4; i++){
             document.getElementsByClassName("navTag")[i].style.fontSize = "20pt";
             document.getElementsByClassName("navTag")[i].style.paddingTop = "0.5rem";
@@ -50,10 +51,30 @@ function windowStr(){
         document.getElementsByClassName("navigationbar")[0].style.borderBottom = null;
         document.getElementById("bilde").style.width="100px";
         document.getElementById("bilde").style.height="100px";
+        document.getElementsByClassName("topnav")[0].style.top="100px";
         for (i = 0; i <= 4; i++){
             document.getElementsByClassName("navTag")[i].style.fontSize = "20pt";
             document.getElementsByClassName("navTag")[i].style.paddingTop = "3rem";
             document.getElementsByClassName("navTag")[i].style.marginRight = "33px";
+        }
+    }
+    if (document.getElementById("hamburgContainer").style.display == "block" || window.innerWidth >= 1100 && window.innerWidth <= 1400){
+        document.getElementsByClassName("topnav")[0].style.top="0px";
+        document.getElementsByClassName("topnav")[0].style.left="0px";
+        document.getElementsByClassName("topnav")[0].style.width="100vw";
+        document.getElementsByClassName("n")[0].style.paddingLeft="8vw";
+        document.getElementsByClassName("n")[0].style.paddingRight="8vw";
+        document.getElementsByClassName("n")[1].style.paddingLeft="8vw";
+        document.getElementsByClassName("n")[1].style.paddingRight="8vw";
+        document.getElementsByClassName("n")[2].style.paddingLeft="8vw";
+        document.getElementsByClassName("n")[2].style.paddingRight="8vw";
+        document.getElementsByClassName("n")[3].style.paddingLeft="8vw";
+        document.getElementsByClassName("n")[3].style.paddingRight="8vw";
+        if (window.innerWidth >= 1100 && window.innerWidth <= 1400 && window.scrollY >= 100){
+            document.getElementsByClassName("topnav")[0].style.top="50px";
+        }
+        else if (window.innerWidth >= 1100 && window.innerWidth <= 1400 && window.scrollY <= 100){
+            document.getElementsByClassName("topnav")[0].style.top="100px";
         }
     }
 }
