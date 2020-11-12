@@ -21,11 +21,11 @@
 
     <link rel="stylesheet" href="stylesheet.css">
 
-		<a class="skip-main" href="#main">Skip to main content</a>
 
 </head>
 
 <body>
+		<a class="skip-main" href="#maincontent">Skip to main content</a>
 	<div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
 		role="button" aria-pressed="false" aria-label="toggle menu">
         <div class="bar1"></div>
@@ -52,13 +52,13 @@
 			<a class="navTag" href="schedule.html">Schedule</a>
             <a class="navTag" href="about.html">About</a>
             <a class="navTag" href="index.html">Home</a>
-            <a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo"></a>
+            <a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" role="banner"></a>
         </div>
     </div>
 
 <div  class="wrapper error-wrapper"> <!-- alt innhold på siden skal inni denne diven -->
-<p id="main" role="main" tabindex="-1">
-<div class="headline error-headline" role="main"><h1>404 - Under Construction</h1></div>
+<div class="headline error-headline" role="main"><h1 role="main" id="maincontent">
+	404 - Under Construction</h1></div>
 
 <div class="footer" role="contentinfo">
     <div class="contact-info">

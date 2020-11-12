@@ -21,10 +21,12 @@
 
 	<link rel="stylesheet" href="menubarsave.css">
 
-	<a class="skip-main" href="#main">Skip to main content</a>
 
 </head>
 <body>
+
+		<a class="skip-main" href="#maincontent">Skip to main content</a>
+
 	<!-- tabindex er så man kan finne frem til elementet med tastaturet,
 			0 så den ikke påvirker andre elementer/rekkefølge -->
     <div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
@@ -53,15 +55,15 @@
 			<a class="navTag" href="schedule.html">Schedule</a>
             <a class="navTag" href="about.html">About</a>
             <a class="navTag active" href="index.html">Home</a>
-            <a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" ></a>
+            <a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" role="banner"></a>
         </div>
     </div>
 
 
 <div class="wrapper" id="frontpage-wrapper"> <!-- alt innhold på siden skal inni denne diven -->
 <p id="main" role="main" tabindex="-1">
-<div id="headline-FP" role="banner"><h1>WE ARE INOVA</h1></div>
-<div class="contents-grid fp-contents-grid" role="main">
+<div id="headline-FP"><h1 role="main" id="maincontent">WE ARE INOVA</h1></div>
+<div class="contents-grid fp-contents-grid">
 	<div class="item item1f">
 		<h2 class= "FP-h2">
 			We are the masters of frugal innovation,

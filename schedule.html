@@ -27,6 +27,7 @@
 
 </head>
 <body>
+		<a class="skip-main" href="#maincontent">Skip to main content</a>
 	<div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
 	role="button" aria-pressed="false" aria-labelledby="menu">
 			<div class="bar1"></div>
@@ -53,7 +54,7 @@
 					<a class="navTag active" href="schedule.html">Schedule</a>
 					<a class="navTag" href="about.html">About</a>
 					<a class="navTag" href="index.html">Home</a>
-					<a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo"></a>
+					<a id="bildeA"><img id="bilde" src="placeholderlogo.png" alt="logo" role="banner"></a>
 			</div>
 	</div>
 	<div class="topnav" tabindex="0" aria-label="schedule navigation">
@@ -64,8 +65,9 @@
 	  </div>
 
 <div  class="wrapper"> <!-- alt innhold på siden skal inni denne diven -->
-		<p id="main" role="main" tabindex="-1">
-		<div class="headline schedule_headline" role="banner"><h1 id="Q1">INNOVATION CAMP SCHEDULE</h1><hr class="underline_header"></div>
+<!--		<p id="main" role="main" tabindex="-1"> -->
+		<div class="headline schedule_headline"><h1 id="Q1" role="main" id="maincontent">
+			INNOVATION CAMP SCHEDULE</h1><hr class="underline_header"></div>
 
 
 <div class="sidenav" role="navigation" tabindex="0" aria-labelledby="schedule">

@@ -21,10 +21,9 @@
 
 	<link rel="stylesheet" href="menubarsave.css">
 
-	<a href="#maincontent" class="skip-main">Skip to main content</a>
-
 </head>
 <body>
+	<a href="#maincontent" class="skip-main">Skip to main content</a>
 
 	<div id="hamburgContainer" tabindex="0" onclick="hamburgFunc(this)" onKeyDown="handleBtnKeyDown(this)"
 	role="button" aria-pressed="false" aria-label="menu">
@@ -58,10 +57,10 @@
 
 
 <div class="wrapper"> <!-- alt innhold på siden skal inni denne diven -->
-<div class="headline meet-headline"><h1> MEET OUR TEAM</h1>
+<div class="headline meet-headline"><h1 role="main" id="maincontent"> MEET OUR TEAM</h1>
 	<hr class="underline_header"></div>
 
-<div class="contents-grid team-contents" role="main" id="maincontent">
+<div class="contents-grid team-contents">
 
 	<div class="item teamitem meet-team1">
 		<img src="odion.jpg" alt="Portrait of Odion Harb">
