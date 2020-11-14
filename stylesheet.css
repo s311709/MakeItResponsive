@@ -391,16 +391,17 @@ på de andre sidene*/
 	background-color:rgba(43, 142, 255, 0.651);
 }
 
+@media (max-width: 711px) {
+
+	.headline > h1 {
+		font-size: 9vw;
+		margin-left: 5px;
+	}
+
+}
 
 @media (max-width: 635px) {
 
-	.error-headline > h1{
-		font-size: 9vw;
-	}
-
-	.schedule_headline > h1{
-		font-size: 9vw;
-	}
 
 	.footer{
 		grid-column 1/11;
