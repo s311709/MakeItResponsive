@@ -397,7 +397,10 @@ på de andre sidene*/
 		font-size: 9vw;
 		margin-left: 5px;
 	}
-
+	.headline-FP{
+		font-size: 9vw;
+		margin-left: 5px;
+	}
 }
 
 @media (max-width: 635px) {
