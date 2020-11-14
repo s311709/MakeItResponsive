@@ -72,7 +72,7 @@ h2{
 	grid-row: 1/4;
 	position sticky;
 	top: 0px;
-	margin-top: 0px;
+	padding-top: 30px;
 	background-color rgb(255, 219, 217);
 	background-color #ffe000;
 	background-color: transparent;
