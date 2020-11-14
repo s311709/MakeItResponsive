@@ -141,3 +141,13 @@
   text-align: center;
 }
 }
+
+
+ @media (max-width: 300px) {
+
+.headline-FP > h1 {
+  font-size: 70px;
+  padding-top: 60px;
+}
+
+ }
