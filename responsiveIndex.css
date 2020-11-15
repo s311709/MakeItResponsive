@@ -150,4 +150,12 @@
   padding-top: 60px;
 }
 
+ .item {
+   padding-top: 20px;
+ }
+
+ .item4f {
+   grid-row: 25/29;
+ }
+
  }

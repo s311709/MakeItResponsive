@@ -2,18 +2,18 @@
 /* This is what makes index.html responsive */
 
 @media (max-width: 1100px) {
-	
+
 	.column_cards{
 		grid-column: 1/11;
 		grid-row: 1/35;
 	}
 
 }
-	
+
 
 
  @media (max-width: 1000px) {
-	
+
  	.column_cards{
 		grid-column: 1/11;
 		grid-row: 1/60;
@@ -24,7 +24,7 @@
 
 
  @media (max-width: 800px) {
-	
+
  	.column_cards{
 		grid-column: 1/11;
 		grid-row: 1/55;
@@ -34,7 +34,7 @@
 
 
  @media (max-width: 600px) {
-	
+
  	.column_cards{
 		grid-column: 1/11;
 		grid-row: 1/52;
@@ -44,7 +44,7 @@
 }
 
  @media (max-width: 450px) {
-	
+
  	.column_cards{
 		grid-column: 1/11;
 		grid-row: 1/60;
@@ -54,7 +54,7 @@
 }
 
  @media (max-width: 350px) {
-	
+
  	.column_cards{
 		grid-column: 1/11;
 		grid-row: 1/65;
@@ -64,10 +64,23 @@
 }
 
  @media (max-width: 300px) {
-	
+
+ .contents-grid {
+	 grid-row: 5/30;
+ }
+
  	.column_cards{
-		grid-column: 1/11;
+		grid-column: 1/9;
 		grid-row: 1/70;
+	}
+
+	.about {
+	padding: 2px;
+	}
+
+	.row {
+		padding: -5px;
+		margin: -5px;
 	}
 
 
